@@ -25,6 +25,7 @@ print (fru)
 fru.pop(2)
 print(fru)
 
+#cambio
 fru.reverse()
 print(fru)
 
