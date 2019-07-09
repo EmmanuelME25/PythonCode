@@ -1,0 +1,11 @@
+people=['Mario','Emmanuel','Pablo','Angela']
+
+#ciclo simple
+for person in people:
+	print('persona {0}'.format(person))
+
+#ciclo condicional
+for person in people:
+	if person == 'Pablo':
+		break
+	print('person {0}'.format(person))
