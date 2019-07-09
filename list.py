@@ -2,6 +2,7 @@
 num=[1,2,3,4,5]
 fru=['Naranjas','Uvas','Peras','Manzana']
 
+#otro cambio
 print (num,fru)
 
 #tamano del arreglo
