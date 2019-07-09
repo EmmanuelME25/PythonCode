@@ -9,3 +9,13 @@ for person in people:
 	if person == 'Pablo':
 		break
 	print('person {0}'.format(person))
+
+#range
+for i in range(0, len(people)):
+	print(people[i],i)
+
+#while
+cont=0
+while cont<=10:
+	print('numero {0}'.format(cont))
+	cont+=1
