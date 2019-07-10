@@ -14,5 +14,12 @@ size2=np.array(size).reshape((-1,1))
 
 print(size2)
 regr= linear_model.LinearRegression()
-#plt.
+regr.fit(seze2,house_price)
+print('Coef: {0}'.format(regr.coef_))
+print('int: {0}'.format(regr.intercept_))
 
+def graf(form,x_range)
+	x=np.array(x_range)
+	y=eval(formula)
+	plt.plot(x,y)
+graph()

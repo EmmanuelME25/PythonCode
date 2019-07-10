@@ -22,5 +22,5 @@ for i in range (0,10):
 	user[i]=usuario((i+1),ac[i],ed[i],'name[i]')	
 	
 miArchivo =open('Resultados.txt','w')
-for i in range(0,11):
+for i in range(0,10):
 	Resultados.write(pase(u[i]))
