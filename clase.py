@@ -29,10 +29,12 @@ class cliente(usuario):
 	
 	def defsaldo(saldo):
 		saldo=self.saldo
-	def salsal(self):
+
+	def salsal(cliente):
 		return 'me llamo {0} y tengo saldo:{1},edad: {2}'.format(self.name,self.saldo,self.age)
 
 Emmanuelc=cliente('EmmanuelMEC','@med',18)
 print('-----------')
+
 Emmanuelc.defsaldo(500)
-print(Emmanuelc.salsal())
+print(salsal(Emmanuelc))
